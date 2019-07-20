@@ -53,7 +53,7 @@ var nihlinkgenerate = function(arr, config){
             a.href = config.url + '/' + config.page + '?u=' + encodeURIComponent(CryptoJS.AES.encrypt(JSON.stringify(data), config.keyit));
         }
     });
-    console.log('NihLink Auto Generate');
+    console.log('url: 'https://safelinksme.blogspot.com', page: 'p/lanjutkeun.html'');
 }
 // Example
 // nihlinkgenerate(['anasrar.github.io', 'codepen.io'], {url: 'https://nihlink.blogspot.com', page: 'p/lanjut.html', keyit: 'AnasRAR', countdown: true})
